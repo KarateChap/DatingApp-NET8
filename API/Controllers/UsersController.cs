@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
+[AllowAnonymous]
 public class UsersController(DataContext context) : BaseApiController
 {
 
