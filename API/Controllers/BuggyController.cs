@@ -37,5 +37,4 @@ public class BuggyController(DataContext context) : BaseApiController
     {
         return BadRequest("This was not a good request");
     }
-
 }
