@@ -1,4 +1,5 @@
 using System.Security.Claims;
+using API.Data;
 using API.DTOs;
 using API.Entities;
 using API.Extensions;
@@ -120,4 +121,6 @@ public class UsersController(IUserRepository userRepository, IMapper mapper,
 
         return BadRequest("Problem deleting photo");
     }
+
+
 }
